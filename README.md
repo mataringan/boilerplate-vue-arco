@@ -15,10 +15,14 @@ Designed for modern web applications with a **clean and scalable architecture**.
 -   ✅ **Tailwind CSS** for utility-first styling.
 -   ✅ **Deployment-ready** with Vercel.
 
-🌟 Author
-Developed by Taofik Arianto
-📧 Contact: taofikarianto@gmail.com
-🔗 GitHub: https://github.com/mataringan
-🔗 LinkedIn: https://www.linkedin.com/in/taofik-arianto
+## 🌟 Author
 
-🚀 Happy Coding! 🎨✨
+**Developed by Taofik Arianto**
+
+📧 **Contact:** [taofikarianto@gmail.com](mailto:taofikarianto@gmail.com)  
+🔗 **GitHub:** [github.com/mataringan](https://github.com/mataringan)  
+🔗 **LinkedIn:** [linkedin.com/in/taofik-arianto](https://www.linkedin.com/in/taofik-arianto)
+
+---
+
+🚀 **Happy Coding!** 🎨✨
