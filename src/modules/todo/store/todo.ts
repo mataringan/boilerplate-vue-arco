@@ -21,6 +21,10 @@ export const useTodoStore = defineStore("todo", {
         deleteTodo(id: string) {
             this.todos = this.todos.filter((t) => t.id !== id);
         },
+        updateTodo(id: string, newTitle: string) {
+            const todo = this.todos.find((t) => t.id === id);
+            if (todo) todo.title = newTitle;
+        },
     },
     getters: {
         completedTodos: (state): Todo[] =>

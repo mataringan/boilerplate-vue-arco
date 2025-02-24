@@ -5,7 +5,7 @@ import { computed } from "vue";
 export function useTodo() {
     const store = useTodoStore();
     const { todos } = storeToRefs(store);
-    const { addTodo, toggleTodo, deleteTodo } = store;
+    const { addTodo, toggleTodo, deleteTodo, updateTodo } = store;
 
     const pendingTodos = computed(() => store.pendingTodos);
     const completedTodos = computed(() => store.completedTodos);
@@ -17,5 +17,6 @@ export function useTodo() {
         addTodo,
         toggleTodo,
         deleteTodo,
+        updateTodo,
     };
 }

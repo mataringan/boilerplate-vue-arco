@@ -4,6 +4,7 @@ export const todoColumns: TableColumnData[] = [
     {
         title: "Todo",
         dataIndex: "title",
+        slotName: "title",
     },
     {
         title: "Completed",
@@ -11,7 +12,16 @@ export const todoColumns: TableColumnData[] = [
         slotName: "completed",
     },
     {
-        title: "Action",
+        title: "Actions",
         slotName: "actions",
+        align: "center",
+        headerCellStyle: {
+            fontWeight: "bold",
+            verticalAlign: "middle",
+        },
+        cellStyle: {
+            textAlign: "center",
+            verticalAlign: "middle",
+        },
     },
 ];
